@@ -23,7 +23,11 @@ import tkinter
 
 #print(#filename.variable)
 
+from FrostyChatBot.interface import logingui
+
+
 ##########################
 # Main Startup Code Area #
 ##########################
 
+logingui.loginGUI()
