@@ -23,11 +23,25 @@ import tkinter
 
 #print(#filename.variable)
 
-from FrostyChatBot.interface import logingui
+from interface import logingui
 
 
 ##########################
 # Main Startup Code Area #
 ##########################
 
-logingui.loginGUI()
+
+def startup():
+    # This is the main startup code area
+    logingui.loginGUI()
+
+
+
+
+
+
+##
+## Code startup() is the main function that is called when the program is run. It is responsible for starting the login GUI.
+##
+
+startup()
